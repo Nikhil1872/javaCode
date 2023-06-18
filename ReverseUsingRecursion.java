@@ -1,7 +1,6 @@
 public class Main
 {
-	public static void main(String[] args) {
-		System.out.println("Hello World");
+	public static void main(String[] args){
 		reverse(123);		 
 	}
 	static int rev=0;
