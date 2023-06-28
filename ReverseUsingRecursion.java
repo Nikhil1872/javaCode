@@ -1,7 +1,7 @@
 public class Main
 {
 	public static void main(String[] args){
-		reverse(123);		 
+	System.out.println("reverse num :"+reverse(123));			 
 	}
 	static int rev=0;
 	static int m=0;
@@ -11,8 +11,7 @@ public class Main
 	     rev=rev*10+m;
 	     if(n<10)
 	      return rev; 
-	     return recur(n/10);
+	     return reverse(n/10);
 	   
 	 }
 }
-
