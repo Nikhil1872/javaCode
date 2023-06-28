@@ -1,7 +1,7 @@
 public class Main
 {
 	public static void main(String[] args) {
-		System.out.println(recur(6));
+		System.out.println(fact(6));
 	}
 	static int fac=1;
   public static int fact(int n)
@@ -9,7 +9,7 @@ public class Main
 	     fac=fac*n;
 	     if(n==1)
 	     return fac;
-	     return recur(n-1);
+	     return fact(n-1);
 	 }
 	 
 }
