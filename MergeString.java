@@ -1,10 +1,10 @@
-#Merged String such that
-#str1="ace"
-#str2="bdf"
-#output="abcde"
+//Merged String such that
+//str1="ace"
+//str2="bdf"
+//output="abcde"
 
 
-****************code**************************
+//****************code**************************
 
 public class Main
 {
