@@ -2,6 +2,7 @@
 //str1="ace"
 //str2="bdf"
 //output="abcde"
+//str1 and str2 can have different length
 
 
 //****************code**************************
