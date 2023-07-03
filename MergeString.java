@@ -10,29 +10,29 @@ public class Main
 {
 	public static void main(String[] args) {
 		String hello1 ="ace";
-		String hello2 ="bd";
-		char [] arr1 = hello1.toCharArray();
+		String hello2 ="bdf";
+	        char [] arr1 = hello1.toCharArray();
 		char [] arr2 = hello2.toCharArray();
-		int l = arr1.length+arr2.length;
+		int len= arr1.length+arr2.length;
 		String str="";
 		int j=0;int k=0;
+		int i=0;
 
-		for(int i=0;i<l;i++)
+	         while(i<len)
 		{
 		    if(j<arr1.length)
 		    {
 		        str=str+arr1[j];
 		        j++;
-		    }
+		        i++;
+		   }
 		    if(k<arr2.length)
 		    {
-		    str=str+arr2[k];
-		    k++;
+		       str=str+arr2[k];
+		       k++;
+		       i++;
 		    }
-	          i++;
-		
 		}
-
-		System.out.println(str);
+	System.out.println(str);
 	}
 }
