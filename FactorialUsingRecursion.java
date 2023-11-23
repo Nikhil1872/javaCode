@@ -3,13 +3,14 @@ public class Main
 	public static void main(String[] args) {
 		System.out.println(fact(6));
 	}
-	static int fac=1;
+	
   public static int fact(int n)
 	 {
-	     fac=fac*n;
-	     if(n==1)
-	     return fac;
-	     return fact(n-1);
+            if (n == 0 || n == 1) 
+              return 1;           // Base case: Factorial of 0 and 1 is 1
+            else 
+            // Recursive call: Factorial of n = n * factorial of (n-1)
+            return n * factorial(n - 1);
 	 }
 	 
 }
